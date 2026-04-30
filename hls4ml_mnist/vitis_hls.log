@@ -1,0 +1,25 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.2 (64-bit)
+  **** SW Build 5238294 on Nov  8 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Apr 29 19:36:00 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis/2024.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'Mr. Moreira' on host 'laptop-spte7rgf' (Windows NT_amd64 version 10.0) on Wed Apr 29 19:36:03 +0200 2026
+INFO: [HLS 200-10] In directory 'C:/Users/Mr. Moreira/PycharmProjects/DCA/FPGA/dca/hls4ml_mnist'
+WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'build_prj.tcl'
+INFO: [HLS 200-1510] Running: open_project myproject_prj 
+ERROR: [HLS 200-70] Project/solution path 'C:/Users/Mr. Moreira/PycharmProjects/DCA/FPGA/dca/hls4ml_mnist/myproject_prj' contains illegal character ' '.
+ERROR: [HLS 200-2015] The file path 'C:/Users/Mr. Moreira/PycharmProjects/DCA/FPGA/dca/hls4ml_mnist/myproject_prj' cannot have any space. Please specify a new path without any spaces.
+command 'ap_source' returned error code
+    while executing
+"source build_prj.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.254 seconds; peak allocated memory: 31.883 MB.
